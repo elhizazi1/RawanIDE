@@ -1,78 +1,183 @@
 <div align="center">
 
+<a href="https://rawanide.elhizazi.me"><img src="app_icon_original.png" alt="RawanIDE icon" width="96" /></a>
+
 # RawanIDE
 
-**Build, edit, and preview web projects on Android.**
+### Your Android. Your Workspace. Your IDE.
 
-An Android development workspace bringing together a project editor, file management, terminal integration, live preview, Git workflows, and an extensible marketplace.
+**A flexible Android development environment for editing, managing, running, and previewing local projects.**
 
-[**Download APK**](https://github.com/elhizazi1/RawanIDE/releases/latest) · [**Help Center**](https://rawanide.elhizazi.me/help) · [**Privacy**](https://rawanide.elhizazi.me/privacy) · [**Marketplace**](https://rawanide.elhizazi.me/) · [**العربية**](README.ar.md)
+<img src="assets/typing-banner.svg" alt="Code. Build. Preview. Anywhere." width="760" />
+
+<p>
+<a href="https://github.com/elhizazi1/RawanIDE/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/elhizazi1/RawanIDE?style=for-the-badge&amp;color=19b9ad&amp;label=Release" /></a>
+<img alt="Android 8.0+" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white" />
+<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Android-7F52FF?style=for-the-badge&amp;logo=kotlin&amp;logoColor=white" />
+<a href="https://github.com/elhizazi1/RawanIDE/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/elhizazi1/RawanIDE?style=for-the-badge&amp;color=19b9ad" /></a>
+</p>
+
+<p>
+<a href="https://github.com/elhizazi1/RawanIDE/releases/latest"><strong>⬇ Download APK</strong></a> &nbsp; • &nbsp;
+<a href="https://rawanide.elhizazi.me/help"><strong>📖 Documentation</strong></a> &nbsp; • &nbsp;
+<a href="https://rawanide.elhizazi.me"><strong>🧩 Marketplace</strong></a> &nbsp; • &nbsp;
+<a href="README.ar.md"><strong>العربية</strong></a>
+</p>
+
+<img src="feature_graphic.png" alt="RawanIDE feature graphic" width="100%" />
 
 </div>
 
 ---
 
-## Overview
+## ✨ Develop on Android, your way
 
-RawanIDE is an Android IDE designed to make local development workflows more practical on a phone or tablet. It combines project navigation, code editing, terminal-assisted development, and an integrated web preview in one workspace.
+RawanIDE brings **project navigation, code editing, terminal-assisted development, and an integrated browser preview** into a single workspace on your phone or tablet. Work with local files, explore your code, and test supported web projects without constantly switching between apps.
 
-## Highlights
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **Projects and files:** Create, open, browse, and manage project files.
-- **Code editing:** Work with source files and project folders from the IDE.
-- **Terminal integration:** Use Termux for supported local development workflows; Termux must be installed and configured separately.
-- **Web preview:** Preview locally served projects in an embedded Android WebView, including workflows using Vite or Nuxt where their dependencies and server are configured.
-- **Responsive preview tools:** Phone, tablet, and desktop-oriented preview modes, with developer tools and desktop touchpad controls.
-- **Git workflows:** Repository-related functionality for supported local workflows.
-- **Extensions:** Discover optional add-ons through RawanIDE Marketplace. Review permissions and trust sources before installing.
-- **Customization:** Themes and optional language packs, depending on the installed add-ons.
-- **Android integrations:** Optional Shizuku and Dhizuku integration for supported features, subject to device configuration.
+### 📁 Project workspace
+Create, import, browse, and organize local project folders and source files.
 
-> Some features depend on Termux, optional services, permissions, extensions, or project-specific dependencies. Availability can vary by Android device and setup.
+</td>
+<td width="50%" valign="top">
 
-## Download and install
+### ✍️ Code editing
+Edit source files and navigate project structures from the IDE.
 
-1. Open [GitHub Releases](https://github.com/elhizazi1/RawanIDE/releases/latest).
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 💻 Termux integration
+Run supported development commands and local servers through a configured Termux environment.
+
+</td>
+<td valign="top">
+
+### 🌐 Live web preview
+Preview locally served projects in an embedded Android WebView, including supported Vite and Nuxt workflows.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 📱 Responsive testing
+Switch between phone, tablet, and desktop preview layouts, with a desktop touchpad and cursor controls.
+
+</td>
+<td valign="top">
+
+### 🛠 Developer tools
+Inspect the preview using console features and Eruda debugging tools.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🌿 Git workflows
+Work with repositories and supported version-control operations.
+
+</td>
+<td valign="top">
+
+### 🧩 Extensible by design
+Explore optional extensions and language packs through the RawanIDE Marketplace.
+
+</td>
+</tr>
+</table>
+
+> [!NOTE]
+> Some workflows depend on separately installed Termux, project dependencies, permissions, optional services, or extensions. Shizuku and Dhizuku are optional integrations; they are not required for basic editing.
+
+## 📸 Explore RawanIDE
+
+<div align="center">
+<table>
+<tr><td align="center"><img src="preview_mockups/01_projects.png" alt="Projects screen" width="260" /><br /><strong>Projects</strong></td><td align="center"><img src="preview_mockups/02_editor.png" alt="Code editor" width="260" /><br /><strong>Editor</strong></td><td align="center"><img src="preview_mockups/03_terminal.png" alt="Terminal" width="260" /><br /><strong>Terminal</strong></td></tr>
+<tr><td align="center"><img src="preview_mockups/04_preview.png" alt="Web preview" width="260" /><br /><strong>Live Preview</strong></td><td align="center"><img src="preview_mockups/05_git.png" alt="Git integration" width="260" /><br /><strong>Git</strong></td><td align="center"><img src="preview_mockups/06_marketplace.png" alt="Extension marketplace" width="260" /><br /><strong>Marketplace</strong></td></tr>
+</table>
+</div>
+
+## 🚀 Download & install
+
+1. Open the **[latest GitHub release](https://github.com/elhizazi1/RawanIDE/releases/latest)**.
 2. Download **`RawanIDE-release-signed.apk`** from the release assets.
-3. Check the published SHA-256 checksum against the downloaded file.
-4. Install the APK on your Android device, approving installation from the chosen source if Android prompts you.
-5. Open RawanIDE and complete the setup for the features you intend to use.
+3. Compare the APK's SHA-256 checksum with the checksum published for that release, if available.
+4. Install the APK on a compatible Android device, approving the installation prompt when required.
+5. Open RawanIDE and configure the features you intend to use.
 
-**Only download releases published by this repository.** The APK is distributed separately from Marketplace extensions.
+**Compatibility:** Android 8.0 (API 26) or later. Optional integrations and development tooling may have additional requirements.
 
-## Getting started
+> [!IMPORTANT]
+> Download APKs only from releases published by this repository. Review permissions and the trustworthiness of any extensions you install.
 
-1. Open or create a project in RawanIDE.
-2. Grant only the file access required for your workflow.
-3. For Node.js projects, set up Termux and install the project's dependencies as needed.
-4. Start the development server from the supported terminal workflow.
-5. Open the integrated preview and select a suitable viewport mode.
+## ⚡ Quick start
 
-For more detailed guidance, see the [Help Center](https://rawanide.elhizazi.me/help).
+```text
+1. Open RawanIDE
+2. Create or import a project
+3. Open the editor and browse your files
+4. Configure Termux if your project needs a local server
+5. Install project dependencies and start the development server
+6. Open Live Preview and choose Phone, Tablet, or Desktop mode
+```
 
-## Documentation
+For full setup instructions, visit the **[Help Center](https://rawanide.elhizazi.me/help)**.
+
+## 🧰 Tools & integrations
+
+| Component | Role | Requirement |
+| :-- | :-- | :-- |
+| Android WebView | Embedded web preview | Included in the app / device WebView |
+| Termux | Local development commands and servers | Separate setup for relevant workflows |
+| Eruda | Web debugging | Available in supported preview contexts |
+| Git | Repository workflows | Feature support depends on the project setup |
+| Shizuku / Dhizuku | Optional privileged integrations | Only for features that use them |
+| RawanIDE Marketplace | Extensions and language packs | Optional |
+
+## 📚 Documentation & community
 
 | Resource | Link |
-| --- | --- |
-| Help | https://rawanide.elhizazi.me/help |
-| About | https://rawanide.elhizazi.me/about |
-| Privacy policy | https://rawanide.elhizazi.me/privacy |
-| Marketplace | https://rawanide.elhizazi.me/ |
-| Releases | https://github.com/elhizazi1/RawanIDE/releases |
-| Issues | https://github.com/elhizazi1/RawanIDE/issues |
+| :-- | :-- |
+| 📖 Help Center | [Read the guide](https://rawanide.elhizazi.me/help) |
+| ℹ️ About | [About RawanIDE](https://rawanide.elhizazi.me/about) |
+| 🔐 Privacy Policy | [Privacy](https://rawanide.elhizazi.me/privacy) |
+| 🧩 Marketplace | [Explore extensions](https://rawanide.elhizazi.me/) |
+| 📦 Releases | [Download versions](https://github.com/elhizazi1/RawanIDE/releases) |
+| 🐞 Issues | [Report a problem](https://github.com/elhizazi1/RawanIDE/issues) |
+| 🌍 Arabic README | [README.ar.md](README.ar.md) |
 
-## Privacy and security
+## 🤝 Contributing & feedback
 
-RawanIDE works with local project files. Optional extensions and integrations may require additional access or communicate with third-party services. Read the [privacy policy](https://rawanide.elhizazi.me/privacy) and evaluate extension permissions before use. Never include API keys, passwords, or personal project data in public bug reports.
+Contributions, bug reports, and constructive feedback are welcome. Read **[CONTRIBUTING.md](CONTRIBUTING.md)** and open an issue describing your Android version, RawanIDE version, reproduction steps, and relevant sanitized logs.
 
-## Feedback and support
+For security-sensitive findings, consult **[SECURITY.md](SECURITY.md)** before disclosing details publicly.
 
-Found a bug? [Open an issue](https://github.com/elhizazi1/RawanIDE/issues/new/choose) with your Android version, app release, reproduction steps, and a sanitized log. For security-sensitive reports, read [SECURITY.md](SECURITY.md) before posting.
+## 🔒 Privacy & security
 
-## License
+RawanIDE works with local project files. Optional extensions or integrations may request additional access or communicate with external services. Review the [privacy policy](https://rawanide.elhizazi.me/privacy), grant only the permissions you need, and never share credentials or private project data in issue reports.
 
-See the repository's **LICENSE** file for the applicable license, if one has been published. This release kit does not assign or change a software license.
+## ⚖️ License
+
+Refer to the repository's **LICENSE** file if an official license has been published. This README does not establish or change the project's license.
 
 ---
 
-<div align="center">Made for developers building on Android.</div>
+<div align="center">
+
+**Built for creators who develop on Android.**
+
+<sub>RawanIDE · Code. Build. Preview. Anywhere.</sub>
+
+<br /><br />
+
+<a href="https://github.com/elhizazi1/RawanIDE/releases/latest">Download</a> · <a href="https://rawanide.elhizazi.me/help">Docs</a> · <a href="https://github.com/elhizazi1/RawanIDE/issues">Feedback</a>
+
+</div>

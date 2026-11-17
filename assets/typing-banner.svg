@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120" role="img" aria-label="Code. Build. Preview. Anywhere.">
+<title>Code. Build. Preview. Anywhere.</title>
+<rect width="900" height="120" rx="20" fill="#0d1117"/>
+<rect x="18" y="18" width="864" height="84" rx="12" fill="#101d22" stroke="#24c9bb" stroke-opacity=".35"/>
+<circle cx="46" cy="42" r="5" fill="#ff7777"/><circle cx="64" cy="42" r="5" fill="#ffcc66"/><circle cx="82" cy="42" r="5" fill="#49d9a6"/>
+<text x="45" y="79" fill="#41e0d0" font-family="monospace" font-size="29" font-weight="bold">&gt; </text>
+<text x="87" y="79" fill="#f1f8f8" font-family="monospace" font-size="29" font-weight="bold">Code. Build. Preview. Anywhere.</text>
+<rect x="650" y="54" width="13" height="30" fill="#41e0d0"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<path d="M 30 108 H 870" stroke="#25c9bc" stroke-width="2" stroke-dasharray="140 730"><animate attributeName="stroke-dashoffset" from="870" to="-870" dur="7s" repeatCount="indefinite"/></path>
+</svg>
