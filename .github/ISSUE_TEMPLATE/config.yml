@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help Center
+    url: https://rawanide.elhizazi.me/help
+    about: Read the official RawanIDE help documentation before filing an issue.

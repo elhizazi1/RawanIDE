@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a reproducible issue in RawanIDE
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: RawanIDE release
+      placeholder: e.g. v1.0.0
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version and device
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Do not include passwords, tokens, or private files.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and sanitized logs
+    validations:
+      required: true
+  - type: textarea
+    id: integrations
+    attributes:
+      label: Relevant integrations
+      description: Termux, Shizuku, Dhizuku, Marketplace extensions, or other setup.
