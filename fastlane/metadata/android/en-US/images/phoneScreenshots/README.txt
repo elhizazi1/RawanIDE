@@ -1,0 +1,1 @@
+Replace with six real app screenshots before publishing. Mockups are in preview_mockups/.

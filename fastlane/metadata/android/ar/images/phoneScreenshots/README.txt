@@ -1,0 +1,1 @@
+Add genuine Arabic app screenshots here before publishing.

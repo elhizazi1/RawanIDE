@@ -1,0 +1,25 @@
+RawanIDE is an Android development workspace for working with local projects from your phone or tablet. Edit code, manage files, use terminal-assisted workflows, and preview web applications without leaving your development workspace.
+
+KEY FEATURES
+
+• Project and file management: Create and open projects, browse folders, and work with source files.
+• Integrated code editor: Edit project files and organize your workspace.
+• Termux integration: Use a separately installed and configured Termux environment for supported command-line workflows.
+• Web preview: View local development servers in an embedded Android WebView. Projects using tools such as Vite and Nuxt can be previewed when their dependencies and server are configured.
+• Preview layouts: Switch between phone, tablet, and desktop-oriented views. Desktop preview includes touchpad-style controls; developer tools are available in supported scenarios.
+• Git workflows: Access repository-related tools for supported development tasks.
+• Optional extensions: Explore add-ons through RawanIDE Marketplace.
+• Customization: Adjust the appearance and use optional language packs.
+• Android integrations: Optional Shizuku and Dhizuku support for compatible features.
+
+GET STARTED
+
+Install RawanIDE, create or open a project, and configure only the integrations your workflow needs. For Node.js-based projects, install and configure Termux separately, then install project dependencies and start the development server before opening preview.
+
+IMPORTANT NOTES
+
+Some capabilities require additional apps, permissions, extensions, services, or project-specific dependencies. Functionality may vary by device and Android version. Review the permissions and source of third-party extensions before installing them.
+
+Documentation: https://rawanide.elhizazi.me/help
+Privacy policy: https://rawanide.elhizazi.me/privacy
+Official releases: https://github.com/elhizazi1/RawanIDE/releases
