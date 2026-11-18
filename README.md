@@ -1,28 +1,23 @@
 <div align="center">
 
-<a href="https://rawanide.elhizazi.me"><img src="app_icon_original.png" alt="RawanIDE icon" width="96" /></a>
+<a href="https://rawanide.elhizazi.me"><img src="app_icon_original.png" alt="RawanIDE icon" width="100" /></a>
 
 # RawanIDE
 
 ### Your Android. Your Workspace. Your IDE.
 
-**A flexible Android development environment for editing, managing, running, and previewing local projects.**
+**Build, edit, run, and preview projects — right from Android.**
 
 <img src="assets/typing-banner.svg" alt="Code. Build. Preview. Anywhere." width="760" />
 
 <p>
-<a href="https://github.com/elhizazi1/RawanIDE/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/elhizazi1/RawanIDE?style=for-the-badge&amp;color=19b9ad&amp;label=Release" /></a>
-<img alt="Android 8.0+" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white" />
-<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Android-7F52FF?style=for-the-badge&amp;logo=kotlin&amp;logoColor=white" />
-<a href="https://github.com/elhizazi1/RawanIDE/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/elhizazi1/RawanIDE?style=for-the-badge&amp;color=19b9ad" /></a>
+<a href="https://github.com/elhizazi1/RawanIDE/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/elhizazi1/RawanIDE?style=for-the-badge&color=19b9ad&label=Release" /></a>
+<img alt="Android 8.0+" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-Android-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+<a href="https://github.com/elhizazi1/rawanide-extension-sdk"><img alt="Extension SDK" src="https://img.shields.io/badge/Extension%20SDK-v1.0.0-19b9ad?style=for-the-badge" /></a>
 </p>
 
-<p>
-<a href="https://github.com/elhizazi1/RawanIDE/releases/latest"><strong>⬇ Download APK</strong></a> &nbsp; • &nbsp;
-<a href="https://rawanide.elhizazi.me/help"><strong>📖 Documentation</strong></a> &nbsp; • &nbsp;
-<a href="https://rawanide.elhizazi.me"><strong>🧩 Marketplace</strong></a> &nbsp; • &nbsp;
-<a href="README.ar.md"><strong>العربية</strong></a>
-</p>
+**[Download APK](https://github.com/elhizazi1/RawanIDE/releases/latest)** · **[Help Center](https://rawanide.elhizazi.me/help)** · **[Extension SDK](https://github.com/elhizazi1/rawanide-extension-sdk)** · **[العربية](README.ar.md)**
 
 <img src="feature_graphic.png" alt="RawanIDE feature graphic" width="100%" />
 
@@ -142,6 +137,19 @@ For full setup instructions, visit the **[Help Center](https://rawanide.elhizazi
 | Shizuku / Dhizuku | Optional privileged integrations | Only for features that use them |
 | RawanIDE Marketplace | Extensions and language packs | Optional |
 
+## 🧩 Build extensions with the official SDK
+
+Extend RawanIDE with `.r1` packages using the **[RawanIDE Extension SDK](https://github.com/elhizazi1/rawanide-extension-sdk)** — a separate developer toolkit for creating, validating, inspecting, and packaging extensions.
+
+| Developer resource | Explore |
+| :-- | :-- |
+| 🛠 Extension SDK source | [rawanide-extension-sdk](https://github.com/elhizazi1/rawanide-extension-sdk) |
+| 📦 Published package | [GitHub Packages](https://github.com/elhizazi1/rawanide-extension-sdk/packages) · `@elhizazi1/extension-sdk` |
+| 📖 Developer documentation | [Developer portal](https://rawanide.elhizazi.me/developers) |
+
+> [!TIP]
+> The SDK is a **developer tool**, not an Android app dependency. It has its own releases and does not require modifying the RawanIDE application to create extension packages.
+
 ## 📚 Documentation & community
 
 | Resource | Link |
@@ -152,6 +160,7 @@ For full setup instructions, visit the **[Help Center](https://rawanide.elhizazi
 | 🧩 Marketplace | [Explore extensions](https://rawanide.elhizazi.me/) |
 | 📦 Releases | [Download versions](https://github.com/elhizazi1/RawanIDE/releases) |
 | 🐞 Issues | [Report a problem](https://github.com/elhizazi1/RawanIDE/issues) |
+| 🛠 Extension SDK | [Create .r1 extensions](https://github.com/elhizazi1/rawanide-extension-sdk) |
 | 🌍 Arabic README | [README.ar.md](README.ar.md) |
 
 ## 🤝 Contributing & feedback

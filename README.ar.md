@@ -1,10 +1,24 @@
 <div align="center">
 
+<a href="https://rawanide.elhizazi.me"><img src="app_icon_original.png" alt="أيقونة RawanIDE" width="100" /></a>
+
 # RawanIDE — روان IDE
 
-**بيئة تطوير على أندرويد لتحرير المشاريع وتشغيلها ومعاينتها.**
+### جهازك الأندرويد. مساحة عملك. بيئة تطويرك.
 
-[**تنزيل APK**](https://github.com/elhizazi1/RawanIDE/releases/latest) · [**مركز المساعدة**](https://rawanide.elhizazi.me/help) · [**الخصوصية**](https://rawanide.elhizazi.me/privacy) · [**سوق الإضافات**](https://rawanide.elhizazi.me/) · [**English**](README.md)
+**حرّر مشاريعك وشغّلها وعاينها مباشرةً من هاتفك أو جهازك اللوحي.**
+
+<img src="assets/typing-banner.svg" alt="Code. Build. Preview. Anywhere." width="760" />
+
+<p>
+<a href="https://github.com/elhizazi1/RawanIDE/releases/latest"><img alt="آخر إصدار" src="https://img.shields.io/github/v/release/elhizazi1/RawanIDE?style=for-the-badge&color=19b9ad&label=Release" /></a>
+<img alt="Android 8.0+" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+<a href="https://github.com/elhizazi1/rawanide-extension-sdk"><img alt="Extension SDK" src="https://img.shields.io/badge/Extension%20SDK-v1.0.0-19b9ad?style=for-the-badge" /></a>
+</p>
+
+**[تنزيل APK](https://github.com/elhizazi1/RawanIDE/releases/latest)** · **[مركز المساعدة](https://rawanide.elhizazi.me/help)** · **[SDK الإضافات](https://github.com/elhizazi1/rawanide-extension-sdk)** · **[English](README.md)**
+
+<img src="feature_graphic.png" alt="واجهة RawanIDE" width="100%" />
 
 </div>
 
@@ -46,10 +60,24 @@ RawanIDE مساحة عمل لتطوير المشاريع على هاتف أو ج
 
 للتفاصيل: [مركز المساعدة](https://rawanide.elhizazi.me/help).
 
+## 🧩 تطوير الإضافات باستخدام SDK الرسمي
+
+يمكن للمطورين إنشاء إضافات `.r1` وفحصها وتجهيز حزمها باستخدام **[RawanIDE Extension SDK](https://github.com/elhizazi1/rawanide-extension-sdk)**، وهي أداة تطوير مستقلة عن تطبيق أندرويد.
+
+| المورد | الرابط |
+| :-- | :-- |
+| 🛠 مستودع SDK | [rawanide-extension-sdk](https://github.com/elhizazi1/rawanide-extension-sdk) |
+| 📦 الحزمة المنشورة | [GitHub Packages](https://github.com/elhizazi1/rawanide-extension-sdk/packages) · `@elhizazi1/extension-sdk` |
+| 📖 توثيق المطورين | [بوابة المطورين](https://rawanide.elhizazi.me/developers) |
+
+> [!NOTE]
+> SDK أداة لإنشاء الإضافات وليست مكونًا يجب تثبيته داخل تطبيق RawanIDE. ويُدار إصدارها بشكل مستقل.
+
 ## الروابط الرسمية
 
 | المورد | الرابط |
 | --- | --- |
+| SDK الإضافات | https://github.com/elhizazi1/rawanide-extension-sdk |
 | المساعدة | https://rawanide.elhizazi.me/help |
 | حول التطبيق | https://rawanide.elhizazi.me/about |
 | سياسة الخصوصية | https://rawanide.elhizazi.me/privacy |
