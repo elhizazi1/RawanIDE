@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "app_name": "RawanIDE",
+  "package_name": "me.elhizazi.rawanide",
+  "category": "Development Tools",
+  "short_description": "An extensible Android IDE with a code editor, Termux integration, live web preview, Git tools, and an extension marketplace.",
+  "detailed_description": "**RawanIDE** is an Android development environment designed for editing, managing, and previewing local projects directly on your device. It brings project navigation, a source editor, a development terminal workflow, and an embedded browser preview together in one workspace.\n\n### Features\n- **Project workspace:** Create, open, import, and organize local projects and files.\n- **Code editing:** Browse project directories and edit source files.\n- **Termux integration:** Run local development commands and servers with a configured Termux environment.\n- **Live web preview:** Test locally served websites and web applications inside the app.\n- **Responsive layouts:** Switch between phone, tablet, and desktop preview modes. Desktop mode includes a touchpad and cursor controls.\n- **Debugging:** Access a developer console and Eruda tools for web previews.\n- **Git workflows:** Work with source repositories and version control.\n- **Extension ecosystem:** Discover compatible add-ons through the RawanIDE Marketplace, including optional language packs.\n- **Optional integrations:** Shizuku and Dhizuku can provide additional capabilities where supported.\n\n### Getting started\nInstall the official signed APK from the GitHub Releases page. Some workflows require Termux, project dependencies, and optional permissions or companion services. RawanIDE does not require Shizuku for its basic editing experience.\n\nDocumentation: https://rawanide.elhizazi.me/help\nPrivacy information: https://rawanide.elhizazi.me/privacy",
+  "developer_message": "Build, preview, and create directly on Android. Thank you for supporting RawanIDE!",
+  "min_sdk": 26,
+  "target_sdk": 37,
+  "license": null,
+  "requires_shizuku": false,
+  "open_source": true,
+  "store_issue_number": null,
+  "changelog": "### RawanIDE v1.0.0 — Initial public release\n\n- Project and file management with an integrated code editor.\n- Termux-based local development workflows and embedded web preview.\n- Mobile, tablet, and desktop preview layouts, including desktop touchpad controls.\n- Developer console and Eruda integration.\n- Git workflows, extension marketplace, and optional language add-ons.\n- Optional Shizuku and Dhizuku integrations.\n- Optimized release build.",
+  "tags": [
+    "android",
+    "android-ide",
+    "kotlin",
+    "code-editor",
+    "termux",
+    "web-development",
+    "developer-tools",
+    "shizuku",
+    "dhizuku",
+    "git",
+    "webview",
+    "extensions",
+    "shizucorefetch"
+  ],
+  "icon_url": "https://raw.githubusercontent.com/elhizazi1/RawanIDE/main/app_icon_original.png",
+  "banner_url": "https://raw.githubusercontent.com/elhizazi1/RawanIDE/main/feature_graphic.png",
+  "app_website": "https://rawanide.elhizazi.me",
+  "repo_url": "https://github.com/elhizazi1/RawanIDE",
+  "download_url": "https://github.com/elhizazi1/RawanIDE/releases/latest/download/RawanIDE-release-signed.apk",
+  "screenshots": [
+    "https://raw.githubusercontent.com/elhizazi1/RawanIDE/main/preview_mockups/01_projects.png",
+    "https://raw.githubusercontent.com/elhizazi1/RawanIDE/main/preview_mockups/02_editor.png",
+    "https://raw.githubusercontent.com/elhizazi1/RawanIDE/main/preview_mockups/03_terminal.png",
+    "https://raw.githubusercontent.com/elhizazi1/RawanIDE/main/preview_mockups/04_preview.png",
+    "https://raw.githubusercontent.com/elhizazi1/RawanIDE/main/preview_mockups/05_git.png",
+    "https://raw.githubusercontent.com/elhizazi1/RawanIDE/main/preview_mockups/06_marketplace.png"
+  ],
+  "has_ads": false,
+  "ads": [],
+  "developer": {
+    "name": "Jamal El Hizazi",
+    "banner_url": "https://shizucorefetch.siwane.xyz/assets/coverture.jpg",
+    "account_url": "https://github.com/elhizazi1",
+    "email": "jamal@elhizazi.me",
+    "website": "https://siwane.xyz",
+    "portfolio": "https://jamal.elhizazi.me",
+    "donate_url": "https://paypal.me/Elhizazi",
+    "socials": {
+      "facebook": "https://fb.com/elhizazi1",
+      "instagram": "https://instagram.com/elhizazi1",
+      "x": "https://x.com/elhizazi1",
+      "youtube": "https://youtube.com/@si1xyz",
+      "github": "https://github.com/elhizazi1",
+      "telegram": "https://t.me/elhizazi1"
+    }
+  },
+  "locales": {
+    "ar": {
+      "category": "أدوات التطوير",
+      "short_description": "بيئة تطوير متكاملة لأندرويد مع محرر أكواد، وتكامل Termux، ومعاينة مباشرة، وأدوات Git، وسوق للإضافات.",
+      "detailed_description": "**RawanIDE** بيئة تطوير على أندرويد تتيح إدارة المشاريع المحلية وتحرير ملفاتها ومعاينة تطبيقات الويب مباشرة من الهاتف.\n\n### أبرز الميزات\n- **إدارة المشاريع:** إنشاء المشاريع المحلية وفتحها واستيرادها وتنظيم ملفاتها.\n- **محرر الأكواد:** تصفح المجلدات وتعديل الملفات المصدرية.\n- **تكامل Termux:** تشغيل أوامر التطوير والخوادم المحلية بعد إعداد Termux.\n- **معاينة مباشرة:** اختبار مواقع وتطبيقات الويب المحلية داخل التطبيق.\n- **أوضاع العرض:** الهاتف واللوحي وسطح المكتب، مع لوحة لمس ومؤشر في وضع سطح المكتب.\n- **أدوات المطور:** وحدة تحكم وأدوات Eruda لتصحيح معاينات الويب.\n- **Git:** العمل مع المستودعات وإدارة الإصدارات.\n- **الإضافات:** اكتشاف إضافات متوافقة وحزم لغات اختيارية عبر سوق RawanIDE.\n- **تكاملات اختيارية:** Shizuku وDhizuku لبعض الوظائف المدعومة.\n\n### البدء\nنزّل ملف APK الرسمي الموقّع من إصدارات GitHub. تتطلب بعض الميزات إعداد Termux أو تثبيت تبعيات المشاريع أو منح صلاحيات إضافية. لا يتطلب تحرير الملفات الأساسي تشغيل Shizuku.\n\nالمساعدة: https://rawanide.elhizazi.me/help\nالخصوصية: https://rawanide.elhizazi.me/privacy",
+      "banner_url": "https://raw.githubusercontent.com/elhizazi1/RawanIDE/main/feature_graphic.png",
+      "developer_message": "طوّر وعاين وأنشئ مشاريعك مباشرة على أندرويد. شكرًا لدعم RawanIDE!",
+      "developer_name": "جمال الحزازي",
+      "changelog": "### RawanIDE v1.0.0 — الإصدار العام الأول\n\n- إدارة المشاريع والملفات ومحرر أكواد مدمج.\n- تكامل Termux لتشغيل بيئات التطوير والمعاينة المحلية.\n- معاينة الهاتف واللوحي وسطح المكتب ولوحة لمس مخصصة.\n- وحدة تحكم المطور وأدوات Eruda.\n- Git وسوق إضافات وحزم لغات اختيارية.\n- تكامل اختياري مع Shizuku وDhizuku.\n- تحسينات بناء الإصدار."
+    }
+  }
+}
