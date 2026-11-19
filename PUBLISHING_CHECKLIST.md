@@ -13,7 +13,7 @@ This checklist is for the RawanIDE Android app's public distribution repository,
 ## GitHub release
 
 - [ ] Create the correct tag and title for the verified version.
-- [ ] Write release notes for this build; do not publish the placeholders in `RELEASE_NOTES.md`.
+- [ ] Write accurate release notes directly in the GitHub Release for this build; do not publish unverified claims.
 - [ ] Upload the intended signed APK and verify the exact published filename.
 - [ ] Calculate SHA-256 from that APK and publish the matching checksum.
 - [ ] Confirm that the release's download link works.
