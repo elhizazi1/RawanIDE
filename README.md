@@ -113,6 +113,9 @@ The following describes RawanIDE's application capabilities and supported integr
 
 ## 📸 Explore RawanIDE
 
+> [!NOTE]
+> The images below are illustrative concept mockups, not screenshots captured from the running app.
+
 <div align="center">
 <table>
 <tr><td align="center"><img src="preview_mockups/01_projects.png" alt="Projects screen" width="260" /><br /><strong>Projects</strong></td><td align="center"><img src="preview_mockups/02_editor.png" alt="Code editor" width="260" /><br /><strong>Editor</strong></td><td align="center"><img src="preview_mockups/03_terminal.png" alt="Terminal" width="260" /><br /><strong>Terminal</strong></td></tr>
@@ -124,7 +127,7 @@ The following describes RawanIDE's application capabilities and supported integr
 
 1. Open the **[latest GitHub release](https://github.com/elhizazi1/RawanIDE/releases/latest)**.
 2. Download **`RawanIDE-release-signed.apk`** from the release assets.
-3. Compare the APK's SHA-256 checksum with the checksum published for that release, if available.
+3. Compare the APK's SHA-256 checksum with the value in [`APK_SHA256.txt`](APK_SHA256.txt).
 4. Install the APK on a compatible Android device, approving the installation prompt when required.
 5. Open RawanIDE and configure the features you intend to use.
 
@@ -194,7 +197,7 @@ The command installs the **SDK in a Node.js project**. To install RawanIDE on An
 
 ## 🤝 Contributing & feedback
 
-Contributions, bug reports, and constructive feedback are welcome. Read **[CONTRIBUTING.md](CONTRIBUTING.md)** and open an issue describing your Android version, RawanIDE version, reproduction steps, and relevant sanitized logs.
+Bug reports, feature requests, and constructive feedback are welcome (source-code pull requests are not accepted). Read **[CONTRIBUTING.md](CONTRIBUTING.md)** and open an issue describing your Android version, RawanIDE version, reproduction steps, and relevant sanitized logs.
 
 For security-sensitive findings, consult **[SECURITY.md](SECURITY.md)** before disclosing details publicly.
 
@@ -204,7 +207,7 @@ RawanIDE works with local project files. Optional extensions or integrations may
 
 ## Copyright and distribution
 
-Copyright © 2026 Jamal El Hizazi. All rights reserved. This repository publishes application information and release materials; it is not the complete Android application source repository. The separate Extension SDK has its own license and distribution terms. Third-party software retains its respective licenses.
+Copyright © 2026 Jamal El Hizazi. All rights reserved. RawanIDE is proprietary freeware: see [LICENSE](LICENSE) for the terms of use, and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for third-party software and licenses. This repository publishes application information and release materials; it is not the complete Android application source repository. The separate Extension SDK has its own license and distribution terms. Third-party software retains its respective licenses.
 
 ---
 

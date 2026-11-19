@@ -8,9 +8,9 @@
   "developer_message": "Build, preview, and create directly on Android. Thank you for supporting RawanIDE!",
   "min_sdk": 26,
   "target_sdk": 37,
-  "license": null,
+  "license": "Proprietary freeware",
   "requires_shizuku": false,
-  "open_source": true,
+  "open_source": false,
   "store_issue_number": null,
   "changelog": "### RawanIDE v1.0.0 — Initial public release\n\n- Project and file management with an integrated code editor.\n- Termux-based local development workflows and embedded web preview.\n- Mobile, tablet, and desktop preview layouts, including desktop touchpad controls.\n- Developer console and Eruda integration.\n- Git workflows, extension marketplace, and optional language add-ons.\n- Optional Shizuku and Dhizuku integrations.\n- Optimized release build.",
   "tags": [
