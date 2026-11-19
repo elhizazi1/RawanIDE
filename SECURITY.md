@@ -1,18 +1,18 @@
-# Security Policy
+# RawanIDE Security Policy
 
-## Reporting a vulnerability
+## Report a vulnerability
 
-Please **do not disclose unpatched security vulnerabilities in public GitHub issues**. Use GitHub's **Report a vulnerability** / private vulnerability reporting feature **if enabled** for this repository. If it is not enabled, contact the repository maintainer through a private channel they explicitly publish; do not post exploit details publicly.
+Do not disclose unpatched vulnerabilities in public GitHub issues. If GitHub private vulnerability reporting is enabled, use **Security → Report a vulnerability** in this repository. Otherwise, request a private reporting channel from the maintainer without posting exploit details publicly.
 
-When reporting, include affected versions, steps to reproduce, impact, and a minimal proof of concept without unrelated sensitive data.
+Include the affected version, reproducible steps, potential impact, and a minimal demonstration with no credentials or private project files.
 
-## Safety notes
+## Download and extension safety
 
-- Download APK files only from this repository's official Releases.
-- Verify the checksum for the exact downloaded APK.
-- Treat Marketplace extensions as additional software and review their permissions and provenance.
-- Never post API keys, tokens, passwords, private logs, or project source containing secrets in public issues.
+- Obtain official APK releases from [RawanIDE Releases](https://github.com/elhizazi1/RawanIDE/releases).
+- Check the checksum against the exact published APK when one is provided; a checksum alone does not authenticate the publisher.
+- Extensions are separate packages. Review their source, permissions, and publisher where possible; a package-integrity check does not guarantee harmless behavior.
+- Never publish tokens, passwords, signing keys, or sensitive logs in issues.
 
 ## Supported versions
 
-Security support policy has not yet been formally published. Do not assume older versions receive updates.
+A formal security-support schedule has not been announced. Do not assume that all previous releases receive security updates.

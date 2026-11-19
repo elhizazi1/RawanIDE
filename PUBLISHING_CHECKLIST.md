@@ -1,37 +1,32 @@
-# Publishing checklist — RawanIDE
+# RawanIDE APK Publishing Checklist (Maintainer)
 
-## Repository
+This checklist is for the RawanIDE Android app's public distribution repository, not for the Extension SDK or Marketplace releases.
 
-- [ ] Confirm the repository's intended visibility and whether it contains source code or only distribution files.
-- [ ] Add `README.md`, `README.ar.md`, `SUPPORT.md`, `SECURITY.md`, `CONTRIBUTING.md`, and issue templates.
-- [ ] Verify the repository license status. If it is open source, publish the actual applicable `LICENSE` text after choosing/confirming the license.
-- [ ] Set GitHub About description and website; add topics.
-- [ ] Enable Discussions only if you plan to moderate them.
-- [ ] Enable private vulnerability reporting if available.
+## Before publishing
 
-## Release
+- [ ] Confirm the exact APK, `versionName`, `versionCode`, application ID, and signing certificate.
+- [ ] Verify the APK installs and starts on a supported device.
+- [ ] Test the features you intend to claim in release notes; note any untested areas.
+- [ ] Review the release's distribution permissions, third-party notices, and source-availability obligations as applicable.
+- [ ] Remove credentials, private files, and signing keys from release assets.
 
-- [ ] Verify actual `versionName` / `versionCode` from the build or source; choose an accurate release tag.
-- [ ] Verify the APK is the intended release and has the correct application ID and signing identity.
-- [ ] Create a GitHub Release with `RELEASE_NOTES.md` content, replacing VERSION.
-- [ ] Upload `RawanIDE-release-signed.apk` under Assets.
-- [ ] Verify the published SHA-256 matches the actual uploaded APK.
-- [ ] Do not upload `mapping.txt` publicly unless you explicitly intend to disclose the obfuscation mapping.
-- [ ] Confirm https://github.com/elhizazi1/RawanIDE/releases/latest works.
-- [ ] Confirm the Marketplace download button targets the exact release asset name and downloads successfully.
-- [ ] Test the installed APK, permissions, project opening, preview, and optional integrations.
-- [ ] Verify the live help/about/privacy pages describe the current app behavior.
+## GitHub release
 
-## Suggested GitHub About
+- [ ] Create the correct tag and title for the verified version.
+- [ ] Write release notes for this build; do not publish the placeholders in `RELEASE_NOTES.md`.
+- [ ] Upload the intended signed APK and verify the exact published filename.
+- [ ] Calculate SHA-256 from that APK and publish the matching checksum.
+- [ ] Confirm that the release's download link works.
+- [ ] Confirm links in `README.md` and `README.ar.md` still work.
 
-**Description:** Android IDE for editing, managing, and previewing local development projects, with Termux integration and an extensible marketplace.
+## Optional distribution channels
+
+- [ ] If publishing store metadata, review `FASTLANE_README.md` and the actual store's requirements.
+- [ ] Use genuine screenshots of the released application, not concept mockups.
+- [ ] Check the live Help, About, and Privacy pages for accuracy.
+
+## Repository metadata (optional)
+
+**Description:** RawanIDE — Android IDE with a local editing workspace, Termux integration, embedded preview, and an extension ecosystem.
 
 **Website:** https://rawanide.elhizazi.me
-
-**Topics:** android, ide, android-development, code-editor, termux, web-development, developer-tools, webview, extensions
-
-**Suggested release title:** RawanIDE vX.Y.Z (replace with verified version)
-
-**Release asset filename:** RawanIDE-release-signed.apk
-
-**Optional screenshot:** Add only screenshots captured from the actual current release, not mockups presented as real UI.

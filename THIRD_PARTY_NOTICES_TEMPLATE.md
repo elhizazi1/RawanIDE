@@ -1,3 +1,11 @@
-# Third-party notices — review required
+# Third-Party Notices — Maintainer Worksheet
 
-Inventory Gradle dependencies, bundled libraries, fonts, icons, code, and assets before release. For each dependency record its name, version, license, copyright, and attribution requirements. Do not assume all dependencies share the app's license.
+**Status:** Not a completed dependency inventory or a legal clearance report.
+
+Before publishing a release, review its actual Gradle dependencies and any bundled code, icons, fonts, libraries, and other assets. For each third-party component, record:
+
+| Component | Version / source | License | Copyright / attribution | Required action |
+|---|---|---|---|---|
+| [verify] | [verify] | [verify] | [verify] | [verify] |
+
+Do not infer that third-party components use the same license as RawanIDE. Replace placeholders with verified information before publishing notices.

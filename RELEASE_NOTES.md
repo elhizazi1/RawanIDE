@@ -1,48 +1,32 @@
-# RawanIDE — Release Notes
+# RawanIDE Release Notes — Maintainer Template
 
-> **Before publishing:** Replace `VERSION` with the verified version shown by the Android build, and set the GitHub tag to the same release version. Do not claim this is a first or stable release unless confirmed.
+> This is an **unpublished template**, not a statement about any specific released APK. Copy and complete it for each new GitHub Release. Do not publish placeholders.
 
-## RawanIDE VERSION
+## RawanIDE [verified version]
 
-A signed Android release of RawanIDE, bringing project editing, local development workflows, integrated preview, and optional extensions together in one workspace.
+### What's new
 
-### Features
+- [Describe changes verified in this exact build.]
 
-- Project and file management with a built-in editing workspace.
-- Termux integration for supported terminal and development-server workflows.
-- Embedded Android WebView preview with phone, tablet, and desktop-oriented modes.
-- Developer tools and desktop touchpad controls.
-- Git-related project workflows.
-- Optional Marketplace extensions and language packs.
-- Optional Shizuku and Dhizuku integrations.
+### Fixes
 
-### Release packaging
+- [List confirmed fixes, or remove this section.]
 
-- Signed Release APK.
-- R8 code shrinking and optimization enabled for this build.
-- Tested by the maintainer for project opening and normal use; testing coverage may vary by device and feature.
+### Download
 
-### Installation
+Download the official APK from this release's **Assets**. Use the exact filename shown there.
 
-Download **`RawanIDE-release-signed.apk`** under **Assets** and install it on Android. Optional development integrations may require separate setup.
+### Requirements and notes
+
+- [State verified Android compatibility and any setup requirements.]
+- [Mention optional Termux, Shizuku, Dhizuku, or extension integrations only when relevant.]
 
 ### Integrity
 
-SHA-256 of the APK supplied for this release preparation:
+SHA-256: `[compute from the exact uploaded APK]`
 
-```text
-0895a7db564418965e4e5e067f09cccfca0e7fba897b344454f47588a256a93d  RawanIDE-release-signed.apk
-```
+### Verification before publishing
 
-**Important:** This checksum is valid only for the exact supplied APK. Recompute it if the APK is rebuilt, re-signed, or renamed/replaced.
-
-### Links
-
-- [Help](https://rawanide.elhizazi.me/help)
-- [About](https://rawanide.elhizazi.me/about)
-- [Privacy](https://rawanide.elhizazi.me/privacy)
-- [Issues](https://github.com/elhizazi1/RawanIDE/issues)
-
-### Notes
-
-This APK is a direct installation package. Marketplace extensions are optional and distributed separately. Please report reproducible bugs without attaching secrets or personal project files.
+- Confirm version name, version code, signing, APK filename, and checksum against the release artifact.
+- Confirm any statements about R8, tests, supported platforms, and functionality from build evidence.
+- Remove all placeholders before posting.

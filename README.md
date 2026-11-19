@@ -91,6 +91,26 @@ Explore optional extensions and language packs through the RawanIDE Marketplace.
 > [!NOTE]
 > Some workflows depend on separately installed Termux, project dependencies, permissions, optional services, or extensions. Shizuku and Dhizuku are optional integrations; they are not required for basic editing.
 
+## 🔍 Detailed features
+
+The following describes RawanIDE's application capabilities and supported integrations. Availability may depend on the installed build, Android version, configuration, and optional components.
+
+| Area | Capabilities |
+| :-- | :-- |
+| **Projects and files** | Create, import and browse local projects; manage project files and folders; open external project locations with a safety warning. |
+| **Code editor** | Edit project source files; save changes; `.bak` backup and restore workflow; editor diagnostics and optional language-tool integration. |
+| **Terminal and Node.js** | Termux-assisted command execution, `npm install` for project dependencies, and development scripts such as `npm run dev`. Node.js/npm are provided by the configured Termux environment, **not** bundled as the Extension SDK. |
+| **Web development** | Local development-server workflows for supported Vite/React and Nuxt projects, with in-app browser preview. |
+| **Responsive preview** | Phone, Tablet and Desktop layouts; desktop touchpad, configurable pointer appearance and controls. |
+| **Preview debugging** | Console panel with copy/select/clear controls and Eruda debugging in supported contexts. |
+| **Development tooling** | Git workflows; optional LSP/DAP integration requiring separately configured language servers or debug adapters. |
+| **Extensions and languages** | Marketplace browsing, `.r1` extension installation, optional language packs and extension-specific features. |
+| **Extension safety** | Package metadata and integrity checks, trust controls, and developer-oriented settings. Exact enforcement depends on the installed version and repository configuration. |
+| **Interface and utilities** | Light/dark themes, notification center, project and terminal settings, and optional Shizuku/Dhizuku integration for supported operations. |
+
+> [!NOTE]
+> This is an overview, not a guarantee that every experimental or optional feature is enabled in the public APK release. Consult the release notes for version-specific availability.
+
 ## 📸 Explore RawanIDE
 
 <div align="center">
@@ -137,18 +157,26 @@ For full setup instructions, visit the **[Help Center](https://rawanide.elhizazi
 | Shizuku / Dhizuku | Optional privileged integrations | Only for features that use them |
 | RawanIDE Marketplace | Extensions and language packs | Optional |
 
-## 🧩 Build extensions with the official SDK
+## 🧩 RawanIDE developer ecosystem
 
-Extend RawanIDE with `.r1` packages using the **[RawanIDE Extension SDK](https://github.com/elhizazi1/rawanide-extension-sdk)** — a separate developer toolkit for creating, validating, inspecting, and packaging extensions.
+**This repository is for the RawanIDE Android APK and its release information.** The developer resources below are separate projects; the SDK npm package is **not** the Android application.
 
-| Developer resource | Explore |
-| :-- | :-- |
-| 🛠 Extension SDK source | [rawanide-extension-sdk](https://github.com/elhizazi1/rawanide-extension-sdk) |
-| 📦 Published package | [GitHub Packages](https://github.com/elhizazi1/rawanide-extension-sdk/packages) · `@elhizazi1/extension-sdk` |
-| 📖 Developer documentation | [Developer portal](https://rawanide.elhizazi.me/developers) |
+| Project | Purpose | Link |
+| :-- | :-- | :-- |
+| **RawanIDE Android** | Download and install the Android IDE (APK) | [APK releases](https://github.com/elhizazi1/RawanIDE/releases/latest) |
+| **Extension SDK** | Create, validate, and package RawanIDE `.r1` extensions | [GitHub source](https://github.com/elhizazi1/rawanide-extension-sdk) · [npm package](https://www.npmjs.com/package/@elhizazi1/extension-sdk) |
+| **RawanIDE Marketplace** | Discover and manage optional extensions and language packs from within RawanIDE | [RawanIDE website](https://rawanide.elhizazi.me/) |
+| **Community Repository Template** | Starting point for developers who want to set up a community extension repository | [GitHub template](https://github.com/elhizazi1/rawanide-community-repository-template) |
+| **Community Repository — GitHub (live example)** | Example of a community extension repository hosted on GitHub | [Source repository](https://github.com/elhizazi1/jamal-repository) · [Published repository](https://elhizazi1.github.io/jamal-repository/) |
+| **Community Repository — GitLab (live example)** | Example of a community extension repository hosted on GitLab | [Source repository](https://gitlab.com/elhizazi1/jamal-repository) · [Published repository](https://jamal-repository-5d923d.gitlab.io/) |
 
-> [!TIP]
-> The SDK is a **developer tool**, not an Android app dependency. It has its own releases and does not require modifying the RawanIDE application to create extension packages.
+### Install the Extension SDK (developers only)
+
+```bash
+npm install @elhizazi1/extension-sdk
+```
+
+The command installs the **SDK in a Node.js project**. To install RawanIDE on Android, download the **APK** from this repository's Releases page instead. For SDK usage and compatibility details, consult the [SDK repository](https://github.com/elhizazi1/rawanide-extension-sdk). Community repositories and their extensions remain subject to RawanIDE's marketplace validation and trust rules.
 
 ## 📚 Documentation & community
 
@@ -160,7 +188,8 @@ Extend RawanIDE with `.r1` packages using the **[RawanIDE Extension SDK](https:/
 | 🧩 Marketplace | [Explore extensions](https://rawanide.elhizazi.me/) |
 | 📦 Releases | [Download versions](https://github.com/elhizazi1/RawanIDE/releases) |
 | 🐞 Issues | [Report a problem](https://github.com/elhizazi1/RawanIDE/issues) |
-| 🛠 Extension SDK | [Create .r1 extensions](https://github.com/elhizazi1/rawanide-extension-sdk) |
+| 🛠 Extension SDK | [GitHub](https://github.com/elhizazi1/rawanide-extension-sdk) · [npmjs](https://www.npmjs.com/package/@elhizazi1/extension-sdk) |
+| 🧱 Community repository template | [GitHub](https://github.com/elhizazi1/rawanide-community-repository-template) |
 | 🌍 Arabic README | [README.ar.md](README.ar.md) |
 
 ## 🤝 Contributing & feedback
@@ -173,9 +202,9 @@ For security-sensitive findings, consult **[SECURITY.md](SECURITY.md)** before d
 
 RawanIDE works with local project files. Optional extensions or integrations may request additional access or communicate with external services. Review the [privacy policy](https://rawanide.elhizazi.me/privacy), grant only the permissions you need, and never share credentials or private project data in issue reports.
 
-## ⚖️ License
+## Copyright and distribution
 
-Refer to the repository's **LICENSE** file if an official license has been published. This README does not establish or change the project's license.
+Copyright © 2026 Jamal El Hizazi. All rights reserved. This repository publishes application information and release materials; it is not the complete Android application source repository. The separate Extension SDK has its own license and distribution terms. Third-party software retains its respective licenses.
 
 ---
 

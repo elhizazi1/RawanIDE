@@ -1,14 +1,13 @@
-# RawanIDE Fastlane metadata
+# RawanIDE Store Listing Metadata (Maintainer)
 
-Copy the `fastlane/` directory into the root of `https://github.com/elhizazi1/RawanIDE`.
+The `fastlane/metadata/android/` directory contains proposed English (`en-US`) and Arabic (`ar`) store-listing text and image assets. These files are **not proof of app-store approval, eligibility, or publication**.
 
-Locales: `en-US` and `ar`. Each contains `title.txt`, `short_description.txt`, and `full_description.txt`. These are descriptive listing texts, **not** an F-Droid inclusion request or certification.
+Before submitting to any store:
 
-## Before publishing to an app store
+1. Review each title, short description, and full description against the actual released APK and the store's limits.
+2. Check the application's package ID, permissions, version, signing, distribution rights, and the store's current rules.
+3. Replace `phoneScreenshots/README.txt` placeholders with real screenshots captured from the app.
+4. Confirm that icons and promotional images are approved and meet the target store's dimensions.
+5. Prepare version-specific changelogs using the actual Android `versionCode` if required.
 
-- Confirm the store’s supported locale codes, title and description limits, package ID, license, build provenance, and policies.
-- Screenshots must be genuine captures of the released application. Add them under `fastlane/metadata/android/<locale>/images/phoneScreenshots/` after review. Do not use invented screenshots.
-- Add a real icon and feature graphic only when required and sourced from approved RawanIDE artwork.
-- Release changelogs belong in `fastlane/metadata/android/<locale>/changelogs/<versionCode>.txt`. The APK's verified versionCode is required; no changelog was fabricated.
-- Some F-Droid tooling uses `fastlane/metadata/android/`; actual F-Droid inclusion additionally requires a suitable license, source/build metadata, and review. Metadata alone does not make an APK eligible.
-- GitHub Releases assets and README are managed separately.
+GitHub Releases are managed separately. F-Droid or any other store may impose additional requirements; including this directory does not establish eligibility.

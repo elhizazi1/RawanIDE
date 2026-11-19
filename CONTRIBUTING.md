@@ -1,23 +1,19 @@
 # Contributing to RawanIDE
 
-Thanks for helping improve RawanIDE.
+This repository publishes information and APK releases for the RawanIDE Android application. It is not currently a public source-code contribution repository.
 
-## Before opening an issue
+## Report a bug
 
-- Search existing issues for duplicates.
-- Check the [Help Center](https://rawanide.elhizazi.me/help).
-- Confirm whether the problem occurs in the latest published release.
+[Open an issue](https://github.com/elhizazi1/RawanIDE/issues). Before posting, check for existing reports. Include the RawanIDE release, Android version, steps to reproduce, expected and actual behavior, and relevant logs with personal information and secrets removed.
 
-## Bug reports
+For issues involving Termux, Shizuku, Dhizuku, preview, or extensions, mention the affected integration and its setup.
 
-Include the release version, Android version, device type, reproduction steps, expected and actual behavior, and relevant sanitized logs. If the issue involves Termux, Shizuku, Dhizuku, or an extension, specify which integration is enabled.
+## Suggest a feature
 
-## Feature requests
+Open an issue describing the use case and proposed behavior. A suggestion does not imply that a feature has been accepted or scheduled.
 
-Describe the use case, current limitation, proposed behavior, and any compatibility concerns.
+## Source-code contributions
 
-## Pull requests
+This repository does not currently accept pull requests to the Android application source. Do not submit unrelated source files or private material.
 
-If the repository contains source code and accepts contributions, keep changes focused, explain testing performed, and avoid unrelated formatting or architecture changes. Do not commit API keys, signing keys, credentials, private project files, or generated APKs unless explicitly requested by maintainers.
-
-For vulnerabilities, see [SECURITY.md](SECURITY.md).
+For security vulnerabilities, follow [SECURITY.md](SECURITY.md) instead of filing a public issue.

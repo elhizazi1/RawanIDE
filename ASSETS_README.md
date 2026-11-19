@@ -1,8 +1,10 @@
-# RawanIDE release visual assets
+# RawanIDE Visual Assets
 
-- `app_icon_original.png`: extracted unmodified from the provided RawanIDE Android project (`res/drawable/ide_app_logo.png`).
-- `feature_graphic.png`: promotional graphic using the original icon; review before publishing.
-- `preview_mockups/`: six **illustrative concept images**, not genuine app screenshots. Never represent these as real screenshots.
-- `fastlane/metadata/android/{en-US,ar}/images/icon.png`: original icon.
-- Replace the placeholder README in each `phoneScreenshots/` folder with six genuine screenshots captured on the actual app before submitting to stores.
-- Verify any store's feature graphic size requirements; this banner is 1600×800, not automatically Google Play-compliant.
+- `app_icon_original.png`: RawanIDE icon asset supplied with the project.
+- `feature_graphic.png`: promotional graphic; check dimensions and suitability for the intended destination before publishing.
+- `assets/typing-banner.svg`: README banner artwork.
+- `preview_mockups/`: illustrative concept images **not** screenshots captured from the running application.
+- `fastlane/metadata/android/{en-US,ar}/images/icon.png`: store-listing icon assets; review before use.
+- `fastlane/metadata/android/{en-US,ar}/images/phoneScreenshots/README.txt`: placeholders, not actual screenshots.
+
+Do not label concept mockups as real application screenshots. Capture and verify genuine screenshots from the intended APK before submitting store listings.
